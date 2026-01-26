@@ -18,13 +18,12 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 
 - 🤖 [agent-skills](https://github.com/jdrhyne/agent-skills) — AI agent skills for Clawdbot, Claude Code, Codex
 - 🎨 [volks-typo](https://github.com/jdrhyne/volks-typo) — Astro blog theme exploring Bauhaus modernism and WW2-era typography
-- 🐙 [claude-code-github](https://github.com/jdrhyne/claude-code-github) — Let Claude handle your Git workflow with natural language
 - 📝 [nudocs](https://nudocs.ai) — AI-powered document editing and collaboration
 - 🦞 [Clawdbot](https://github.com/clawdbot/clawdbot) — Contributing to the personal AI assistant that actually does things
 
 ## Company
 
-- 🔋 **[Nutrient](https://nutrient.io)** (formerly [@PSPDFKit](https://github.com/PSPDFKit)) — Co-Founder & CEO. Document SDKs used by millions, backed by Insight Partners. Built from scratch with [@steipete](https://github.com/steipete) in 2011, rebranded to Nutrient in 2024.
+- 🔋 **[Nutrient](https://www.nutrient.io)** (formerly [@PSPDFKit](https://github.com/PSPDFKit)) — Co-Founder & CEO. Document SDKs used by millions, backed by Insight Partners. Built from scratch with [@steipete](https://github.com/steipete) in 2011, rebranded to Nutrient in 2024.
 
 ## What I'm Doing
 
@@ -49,7 +48,7 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 [![Twitter](https://img.shields.io/badge/-@jdrhyne-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://x.com/jdrhyne)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jonathan-rhyne-54084811)
 [![Website](https://img.shields.io/badge/-jdrhyne.me-000000?style=flat-square&logo=safari&logoColor=white)](https://jdrhyne.me)
-[![Nutrient](https://img.shields.io/badge/-nutrient.io-6366F1?style=flat-square&logo=data:image/svg+xml;base64,PHN2Zz48L3N2Zz4=&logoColor=white)](https://nutrient.io)
+[![Nutrient](https://img.shields.io/badge/-nutrient.io-6366F1?style=flat-square&logo=data:image/svg+xml;base64,PHN2Zz48L3N2Zz4=&logoColor=white)](https://www.nutrient.io)
 
 ---
 
