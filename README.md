@@ -63,3 +63,5 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 - 🤝 Co-founded PSPDFKit with [@steipete](https://github.com/steipete) — still friends, still building
 - ☕ Powered by North Carolina coffee and the belief that documents don't have to suck
 - 🤖 Currently letting AI agents do my email while I live my life
+
+<!-- profile refresh 1769446642 -->
