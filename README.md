@@ -1,6 +1,6 @@
 # Hi, I'm Jonathan 👋
 
-📍 Raleigh, NC | 🚀 Co-Founder & CEO [@Nutrient](https://nutrient.io) | ⚖️ Lawyer turned builder | 🤖 Aspiring vibe coding god
+📍 Raleigh, NC | 🚀 Co-Founder & CEO [Nutrient](https://nutrient.io) ([@PSPDFKit](https://github.com/PSPDFKit)) | ⚖️ Lawyer turned builder | 🤖 Aspiring vibe coding god
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -24,8 +24,7 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 
 ## Company
 
-- 🔋 **[Nutrient](https://nutrient.io)** (CEO) — Document SDKs used by millions, backed by Insight Partners
-- 📄 **PSPDFKit** (Co-Founder) — Built it from scratch with [@steipete](https://github.com/steipete), rebranded to Nutrient in 2024
+- 🔋 **[Nutrient](https://nutrient.io)** (formerly [@PSPDFKit](https://github.com/PSPDFKit)) — Co-Founder & CEO. Document SDKs used by millions, backed by Insight Partners. Built from scratch with [@steipete](https://github.com/steipete) in 2011, rebranded to Nutrient in 2024.
 
 ## What I'm Doing
 
