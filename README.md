@@ -10,7 +10,7 @@
 ![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
 ![PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)
 
-I left a law career to build software. Best decision I ever made. Now I run [Nutrient](https://nutrient.io) — the company I co-founded as PSPDFKit back in 2011. We help developers build better document experiences, and our tech powers apps used by nearly a billion people.
+I left a law career to build software. Best decision I ever made. Now I run [Nutrient](https://nutrient.io) — the company I co-founded as PSPDFKit back in 2014. We help developers build better document experiences, and our tech powers apps used by nearly a billion people.
 
 These days I'm deep in the AI trenches, exploring how agents change everything about how we work. I have an AI assistant named Brosef who handles my email while I'm at my kid's birthday parties. The future is weird and I'm here for it.
 
