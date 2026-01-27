@@ -16,10 +16,11 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 
 ## Current Projects
 
-- 🤖 [agent-skills](https://github.com/jdrhyne/agent-skills) — AI agent skills for Clawdbot, Claude Code, Codex
+- 🤖 [agent-skills](https://github.com/jdrhyne/agent-skills) — AI agent skills for Moltbot, Claude Code, Codex
+- 🦞 [lobster-workflows](https://github.com/jdrhyne/lobster-workflows) — Deterministic workflow templates for Moltbot with approval gates and state tracking
 - 🎨 [volks-typo](https://github.com/jdrhyne/volks-typo) — Astro blog theme exploring Bauhaus modernism and WW2-era typography
 - 📝 [nudocs](https://nudocs.ai) — AI-powered document editing and collaboration
-- 🦞 [Clawdbot](https://github.com/clawdbot/clawdbot) — Contributing to the personal AI assistant that actually does things
+- 🐙 [Moltbot](https://github.com/clawdbot/clawdbot) — Contributing to the personal AI assistant that actually does things (formerly Clawdbot)
 
 ## Company
 
