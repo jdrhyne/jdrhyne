@@ -12,15 +12,17 @@
 
 I left a law career to build software. Best decision I ever made. Now I run [Nutrient](https://nutrient.io) — the company I co-founded as PSPDFKit back in 2014. We help developers build better document experiences, and our tech powers apps used by nearly a billion people.
 
-These days I'm deep in the AI trenches, exploring how agents change everything about how we work. I have an AI assistant named Brosef who handles my email while I'm at my kid's birthday parties. The future is weird and I'm here for it.
+These days I'm deep in the AI trenches, building document processing infrastructure for AI agents. I run a fleet of AI agents that handle everything from email to market research while I'm at my kid's birthday parties. The future is weird and I'm here for it.
 
 ## Current Projects
 
-- 🤖 [agent-skills](https://github.com/jdrhyne/agent-skills) — AI agent skills for Moltbot, Claude Code, Codex
-- 🦞 [lobster-workflows](https://github.com/jdrhyne/lobster-workflows) — Deterministic workflow templates for Moltbot with approval gates and state tracking
-- 🎨 [volks-typo](https://github.com/jdrhyne/volks-typo) — Astro blog theme exploring Bauhaus modernism and WW2-era typography
-- 📝 [nudocs](https://nudocs.ai) — AI-powered document editing and collaboration
-- 🦞 [Moltbot](https://github.com/clawdbot/clawdbot) — Contributing to the personal AI assistant that actually does things (formerly Clawdbot)
+- 📄 **[Nutrient DWS MCP Server](https://github.com/PSPDFKit/nutrient-dws-mcp-server)** — MCP server for document processing: convert, OCR, redact, sign, extract, watermark PDFs via natural language
+- 🔌 **[Nutrient Agent Skill](https://github.com/PSPDFKit-labs/nutrient-agent-skill)** — Universal document processing skill for Claude Code, Codex, Gemini CLI, Cursor, and 15+ agents
+- 🤖 **[agent-skills](https://github.com/jdrhyne/agent-skills)** — 35+ AI agent skills for OpenClaw, Claude Code, Codex
+- 🦞 **[lobster-workflows](https://github.com/jdrhyne/lobster-workflows)** — Deterministic workflow templates for OpenClaw with approval gates and state tracking
+- 📝 **[nudocs](https://nudocs.ai)** — AI-powered document editing and collaboration
+- 🎨 **[volks-typo](https://github.com/jdrhyne/volks-typo)** — Astro blog theme exploring Bauhaus modernism and WW2-era typography
+- 🦞 **[OpenClaw](https://github.com/openclaw/openclaw)** — Contributing to the personal AI assistant that actually does things
 
 ## Company
 
@@ -28,9 +30,10 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 
 ## What I'm Doing
 
+- **Building document infrastructure for AI agents** — MCP servers, agent skills, and plugins that give AI agents real document processing capabilities
 - **Building in public** — Shipping AI tools and sharing what I learn
-- **Writing** — Documenting the vibe coding journey at [jdrhyne.me](https://jdrhyne.me)
-- **Leading Nutrient** — Evolving how humans experience documents
+- **Writing** — Documenting the journey at [jdrhyne.me](https://jdrhyne.me)
+- **Leading Nutrient** — Evolving how humans (and AI agents) experience documents
 
 ## Latest Blog Posts
 
@@ -39,10 +42,10 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 
 ## Recognition
 
-- 🏛️ [Forbes Technology Council](https://councils.forbes.com/profile/Jonathan-Rhyne-CEO-Cofounder-Nutrient/a595668b-4fc5-4d6e-85fe-69648f8b43f5) member
-- 🎙️ [AiThority Interview](https://aithority.com/machine-learning/aithority-interview-with-jonathan-rhyne-cofounder-ceo-of-nutrient/) on AI and document processing
-- 📄 [PDF Association](https://pdfa.org/people/jonathan-rhyne/) member
-- 🦞 Featured on [clawd.bot](https://clawd.bot) — *"Cleared 10,000+ emails from my inbox!"*
+- 🏛️ **[Forbes Technology Council](https://councils.forbes.com/profile/Jonathan-Rhyne-CEO-Cofounder-Nutrient/a595668b-4fc5-4d6e-85fe-69648f8b43f5)** member
+- 🎙️ **[AiThority Interview](https://aithority.com/machine-learning/aithority-interview-with-jonathan-rhyne-cofounder-ceo-of-nutrient/)** on AI and document processing
+- 📄 **[PDF Association](https://pdfa.org/people/jonathan-rhyne/)** member
+- 🦞 Featured on **[openclaw.ai](https://openclaw.ai)**
 
 ## Connect
 
@@ -62,6 +65,4 @@ These days I'm deep in the AI trenches, exploring how agents change everything a
 - 🎓 NC State undergrad → Campbell Law School → said "nah" to practicing law
 - 🤝 Co-founded PSPDFKit with [@steipete](https://github.com/steipete) — still friends, still building
 - ☕ Powered by North Carolina coffee and the belief that documents don't have to suck
-- 🤖 Currently letting AI agents do my email while I live my life
-
-<!-- profile refresh 1769446642 -->
+- 🤖 Currently running 5 AI agents that do real work while I live my life
