@@ -31,7 +31,6 @@ Document processing infrastructure for humans and AI agents.
 - 🤖 **[agent-skills](https://github.com/jdrhyne/agent-skills)** — 35+ AI agent skills for OpenClaw, Claude Code, Codex
 - 🦞 **[lobster-workflows](https://github.com/jdrhyne/lobster-workflows)** — Deterministic workflow templates for OpenClaw with approval gates and state tracking
 - 🦞 **[OpenClaw](https://github.com/openclaw/openclaw)** — Contributing to the personal AI assistant that actually does things
-- 🔧 **[claude-code-github](https://github.com/jdrhyne/claude-code-github)** — Let Claude handle your Git workflow — commits, branches, PRs with natural language
 - 🎨 **[volks-typo](https://github.com/jdrhyne/volks-typo)** — Astro blog theme exploring Bauhaus modernism and WW2-era typography
 
 ## Published Skills on ClawHub
