@@ -26,11 +26,18 @@ Document processing infrastructure for humans and AI agents.
 - 📝 **[nudocs](https://nudocs.ai)** — AI-powered document editing and collaboration ([CLI](https://github.com/PSPDFKit/nudocs-cli) · [MCP Server](https://github.com/PSPDFKit/nudocs-mcp-server))
 - 📚 **[awesome-nutrient](https://github.com/PSPDFKit/awesome-nutrient)** — Curated collection of Nutrient ecosystem resources
 
-## Open Source & AI Agent Tools
+## Building the Future of AI Agents
 
-- 🤖 **[agent-skills](https://github.com/jdrhyne/agent-skills)** — 35+ AI agent skills for OpenClaw, Claude Code, Codex
-- 🦞 **[lobster-workflows](https://github.com/jdrhyne/lobster-workflows)** — Deterministic workflow templates for OpenClaw with approval gates and state tracking
+Making AI agents trustworthy, capable, and autonomous.
+
+- 🛡️ **[AgentVerus Scanner](https://github.com/agentverus/agentverus-scanner)** — Security scanner for AI agent skills. Detects prompt injection, data exfiltration, and 10 ASST threat categories across 12,500+ scanned skills
+- 🔌 **AgentVerus MCP Server** *(coming soon)* — MCP server exposing trust scoring and security analysis for any AI agent workflow
+- 🤖 **[agent-skills](https://github.com/jdrhyne/agent-skills)** — 35+ reusable AI agent skills for OpenClaw, Claude Code, Codex
 - 🦞 **[OpenClaw](https://github.com/openclaw/openclaw)** — Contributing to the personal AI assistant that actually does things
+- 🦞 **[lobster-workflows](https://github.com/jdrhyne/lobster-workflows)** — Deterministic workflow templates with approval gates and state tracking
+
+## Other Open Source
+
 - 🎨 **[volks-typo](https://github.com/jdrhyne/volks-typo)** — Astro blog theme exploring Bauhaus modernism and WW2-era typography
 
 ## Published Skills on ClawHub
@@ -47,8 +54,8 @@ Skills include: Nutrient document processing, Nudocs, Gong, Google Ads, JIRA, Mu
 
 ## What I'm Doing
 
-- **Building document infrastructure for AI agents** — MCP servers, agent skills, client libraries, and plugins that give AI agents real document processing capabilities
-- **Running House Atreides** — A multi-agent fleet on [OpenClaw](https://openclaw.ai) that handles real work autonomously
+- **Building infrastructure for trustworthy AI agents** — Security scanning, document processing, and the tooling agents need to actually work
+- **Running House Atreides** — A fleet of 5 specialized AI agents on [OpenClaw](https://openclaw.ai) that handle real work autonomously
 - **Publishing agent skills** — Packaging reusable workflows on [ClawHub](https://clawhub.ai/u/jdrhyne)
 - **Writing** — Documenting the journey at [jdrhyne.me](https://jdrhyne.me)
 - **Leading Nutrient** — Evolving how humans (and AI agents) experience documents
