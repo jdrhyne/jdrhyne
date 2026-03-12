@@ -62,11 +62,11 @@ Skills include: Nutrient document processing, Nudocs, Gong, Google Ads, JIRA, Mu
 
 ## Latest Blog Posts
 
+- [Speed Is Now Even Cheaper While Errors Are Only Getting More Expensive.](https://jdrhyne.me/thoughts/speed-is-cheap-error-is-expensive) — Mar 2026
+- [AI Can Run Autonomously. Accountability Still Can't.](https://jdrhyne.me/thoughts/ai-can-run-autonomously-accountability-still-cant) — Feb 2026
 - [Meet Brosef: How AI Learned to Work While I Sleep](https://jdrhyne.me/thoughts/meet-brosef-how-ai-learned-to-work-while-i-sleep) — Jan 2026
 - [Building My Website Without Writing Code](https://jdrhyne.me/thoughts/building-website-without-code-vienna-experiment) — Jun 2025
 - [The Enduring Importance of Retreats for Remote Companies](https://jdrhyne.me/thoughts/the-enduring-importance-of-retreats-for-remote-companies-a-6-year-update-b72f7f8ebbba) — Sep 2023
-- [From Camelot to the Cloud: The World Has Lost a True Visionary](https://jdrhyne.me/thoughts/from-camelot-to-the-cloud-the-world-has-lost-a-true-visionary-with-the-passing-of-john-warnock-8d42234ce6e0) — Aug 2023
-- [The Evolution of the Document: Fusing the Old with the New](https://jdrhyne.me/thoughts/the-evolution-of-the-document-fusing-the-old-with-the-new-f63bc3e9e192) — Jul 2023
 
 ## Recognition
 
