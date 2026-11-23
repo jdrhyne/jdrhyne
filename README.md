@@ -14,10 +14,10 @@ I left a law career to build software. Best decision I ever made. I started out 
 
 ## What we’re building at Nutrient
 
-We started with PDF SDKs for developers. Today our tools also power document workflows in web apps, on servers, and in the agents people use to get work done. A few projects I’d put in your hands first:
+We started with PDF SDKs for developers. Today more than 3,000 organizations, including 15 percent of the Global 500, run document workflows on Nutrient: in web apps, on servers, and more and more inside agents. A few projects I’d put in your hands first:
 
-- **[Nudocs](https://nudocs.ai/)** is our document agent for Mac. Give it two versions of an agreement and ask which terms changed. It can surface edits the other side never marked. It also edits PDFs, revises Word files with tracked changes, and extracts invoice lines into a table.
-- **[Nutrient’s document CLI](https://github.com/PSPDFKit/pdf-to-markdown)** lets you see exactly what a model will get from a PDF. Run `pdf-to-markdown input.pdf` locally and inspect the headings, tables, and reading order yourself.
+- **[Nudocs](https://nudocs.ai/)** is our document agent for Mac. Give it two versions of an agreement and ask which terms changed. It separates what the other side marked from what they changed quietly, like a notice period that moved from 30 to 90 days with no tracked change. It revises Word files as tracked changes, edits PDFs, and pulls figures from a stack of documents into one table, with a citation on every number. Free for Apple silicon Macs; needs a Nutrient DWS account.
+- **[pdf-to-markdown](https://github.com/PSPDFKit/pdf-to-markdown)**, part of the Nutrient CLI, turns PDFs into Markdown on your machine. It’s free, needs no account, and doesn’t upload your files. Run `npx @pspdfkit/pdf-to-markdown input.pdf` and check the headings, tables, and reading order before a model ever sees them.
 - **[WholeDoc Bench](https://www.nutrient.io/benchmarks/parse/)** is our extraction team’s benchmark for document parsers. My suggestion for a first test is a table that continues onto a second page. [Run the public sample](https://github.com/PSPDFKit-labs/wholedoc-bench) and see which parsers keep the rows together.
 
 ### Developer tools
@@ -26,13 +26,13 @@ We started with PDF SDKs for developers. Today our tools also power document wor
 | --- | --- |
 | Extract a field and highlight where it came from on the page | [Data extraction samples](https://github.com/PSPDFKit/nutrient-extraction-samples) |
 | Give Claude Code or Codex document tools | [Nutrient Skills](https://github.com/PSPDFKit-labs/nutrient-skills) |
-| Connect an agent to hosted document processing or your own Document Engine | [DWS MCP server](https://github.com/PSPDFKit/nutrient-dws-mcp-server) · [Document Engine MCP server](https://github.com/PSPDFKit/nutrient-document-engine-mcp-server) |
-| Call Document Web Services from your application | [Python client](https://github.com/PSPDFKit/nutrient-dws-client-python) · [My TypeScript client](https://github.com/jdrhyne/nutrient-dws-typescript-client) |
+| Connect an agent to hosted document processing or your own Document Engine | [Hosted Nutrient MCP](https://www.nutrient.io/api/mcp-server-pdf-automation-llm/) (nothing to install) · [Document Engine MCP server](https://github.com/PSPDFKit/nutrient-document-engine-mcp-server) |
+| Call Document Web Services from your application | [Python client](https://github.com/PSPDFKit/nutrient-dws-client-python) · [TypeScript client](https://github.com/PSPDFKit-labs/nutrient-dws-client-typescript) |
 | Explore more SDKs, examples, and community projects | [awesome-nutrient](https://github.com/PSPDFKit/awesome-nutrient) |
 
 ## Agents and side projects
 
-**House Atreides** is what I called the crew of agents I built on [OpenClaw](https://github.com/openclaw/openclaw) for jobs like code review and market research. If you want the backstory, [meet Brosef](https://jdrhyne.me/thoughts/meet-brosef-how-ai-learned-to-work-while-i-sleep).
+**House Atreides** is what I called the crew of agents I built on [OpenClaw](https://github.com/openclaw/openclaw), the open-source assistant built by my PSPDFKit co-founder [@steipete](https://github.com/steipete), for jobs like code review and market research. It started with one assistant named Brosef. [Here’s how that went](https://jdrhyne.me/thoughts/meet-brosef-how-ai-learned-to-work-while-i-sleep).
 
 **[agent-skills](https://github.com/jdrhyne/agent-skills)** is my collection of reusable skills for coding agents. I also publish skills on [ClawHub](https://clawhub.ai/u/jdrhyne), covering everything from document processing to working with Gong and Jira.
 
