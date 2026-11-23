@@ -1,6 +1,8 @@
 # Hi, I'm Jonathan 👋
 
-📍 Raleigh, NC | 🚀 Co-Founder & CEO [Nutrient](https://nutrient.io) ([@PSPDFKit](https://github.com/PSPDFKit)) | ⚖️ Lawyer turned builder | 🤖 Aspiring vibe coding god
+I co-founded PSPDFKit. Today we’re [Nutrient](https://www.nutrient.io/), and I’m the CEO. I live in Raleigh, North Carolina.
+
+I left a law career to build software. Best decision I ever made. I started out representing software developers, and I still have a lawyer’s habits when I try what we build. If I ask an agent to change a payment term, I want a redline I can review in Word. If it gives me a number from an invoice, I want to see the row it came from.
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -10,88 +12,40 @@
 ![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
 ![PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)
 
-I left a law career to build software. Best decision I ever made. Now I run [Nutrient](https://nutrient.io) — the company I co-founded as PSPDFKit back in 2014. We help developers build better document experiences, and our tech powers apps used by nearly a billion people.
+## What we’re building at Nutrient
 
-These days I'm deep in the AI trenches, building document processing infrastructure for AI agents. I run a fleet of AI agents — **House Atreides** — five specialized agents that handle everything from code review to market research while I'm at my kid's birthday parties. The future is weird and I'm here for it.
+We started with PDF SDKs for developers. Today more than 3,000 organizations, including 15 percent of the Global 500, run document workflows on Nutrient: in web apps, on servers, and more and more inside agents. A few projects I’d put in your hands first:
 
-## Nutrient Ecosystem
+- **[Nudocs](https://nudocs.ai/)** is our document agent for Mac. Give it two versions of an agreement and ask which terms changed. It separates what the other side marked from what they changed quietly, like a notice period that moved from 30 to 90 days with no tracked change. It revises Word files as tracked changes, edits PDFs, and pulls figures from a stack of documents into one table, with a citation on every number. Free for Apple silicon Macs; needs a Nutrient DWS account.
+- **[pdf-to-markdown](https://github.com/PSPDFKit/pdf-to-markdown)**, part of the Nutrient CLI, turns PDFs into Markdown on your machine. It’s free, needs no account, and doesn’t upload your files. Run `npx @pspdfkit/pdf-to-markdown input.pdf` and check the headings, tables, and reading order before a model ever sees them.
+- **[WholeDoc Bench](https://www.nutrient.io/benchmarks/parse/)** is our extraction team’s benchmark for document parsers. My suggestion for a first test is a table that continues onto a second page. [Run the public sample](https://github.com/PSPDFKit-labs/wholedoc-bench) and see which parsers keep the rows together.
 
-Document processing infrastructure for humans and AI agents.
+### Developer tools
 
-- 📄 **[Nutrient DWS MCP Server](https://github.com/PSPDFKit/nutrient-dws-mcp-server)** — MCP server for document processing: convert, OCR, redact, sign, extract, watermark PDFs via natural language
-- 🏗️ **[Nutrient Document Engine MCP Server](https://github.com/PSPDFKit/nutrient-document-engine-mcp-server)** — MCP server for self-hosted Nutrient Document Engine with full document processing capabilities
-- 🔌 **[Nutrient Agent Skill](https://github.com/PSPDFKit-labs/nutrient-agent-skill)** — Universal document processing skill for Claude Code, Codex, Gemini CLI, Cursor, and 15+ agents
-- 🐍 **[nutrient-dws-client-python](https://github.com/PSPDFKit/nutrient-dws-client-python)** — Official Python client for the Nutrient Document Web Services API
-- 📘 **[nutrient-dws-typescript-client](https://github.com/jdrhyne/nutrient-dws-typescript-client)** — TypeScript client for the Nutrient DWS API
-- 📝 **[nudocs](https://nudocs.ai)** — AI-powered document editing and collaboration ([CLI](https://github.com/PSPDFKit/nudocs-cli) · [MCP Server](https://github.com/PSPDFKit/nudocs-mcp-server))
-- 📚 **[awesome-nutrient](https://github.com/PSPDFKit/awesome-nutrient)** — Curated collection of Nutrient ecosystem resources
+| If you want to… | Start here |
+| --- | --- |
+| Extract a field and highlight where it came from on the page | [Data extraction samples](https://github.com/PSPDFKit/nutrient-extraction-samples) |
+| Give Claude Code or Codex document tools | [Nutrient Skills](https://github.com/PSPDFKit-labs/nutrient-skills) |
+| Connect an agent to hosted document processing or your own Document Engine | [Hosted Nutrient MCP](https://www.nutrient.io/api/mcp-server-pdf-automation-llm/) (nothing to install) · [Document Engine MCP server](https://github.com/PSPDFKit/nutrient-document-engine-mcp-server) |
+| Call Document Web Services from your application | [Python client](https://github.com/PSPDFKit/nutrient-dws-client-python) · [TypeScript client](https://github.com/PSPDFKit-labs/nutrient-dws-client-typescript) |
+| Explore more SDKs, examples, and community projects | [awesome-nutrient](https://github.com/PSPDFKit/awesome-nutrient) |
 
-## Building the Future of AI Agents
+## Agents and side projects
 
-Making AI agents trustworthy, capable, and autonomous.
+**House Atreides** is what I called the crew of agents I built on [OpenClaw](https://github.com/openclaw/openclaw), the open-source assistant built by my PSPDFKit co-founder [@steipete](https://github.com/steipete), for jobs like code review and market research. It started with one assistant named Brosef. [Here’s how that went](https://jdrhyne.me/thoughts/meet-brosef-how-ai-learned-to-work-while-i-sleep).
 
-- 🛡️ **[AgentVerus Scanner](https://github.com/agentverus/agentverus-scanner)** — Security scanner for AI agent skills. Detects prompt injection, data exfiltration, and 10 ASST threat categories across 12,500+ scanned skills
-- 🔌 **AgentVerus MCP Server** *(coming soon)* — MCP server exposing trust scoring and security analysis for any AI agent workflow
-- 🤖 **[agent-skills](https://github.com/jdrhyne/agent-skills)** — 35+ reusable AI agent skills for OpenClaw, Claude Code, Codex
-- 🦞 **[OpenClaw](https://github.com/openclaw/openclaw)** — Contributing to the personal AI assistant that actually does things
-- 🦞 **[lobster-workflows](https://github.com/jdrhyne/lobster-workflows)** — Deterministic workflow templates with approval gates and state tracking
+**[agent-skills](https://github.com/jdrhyne/agent-skills)** is my collection of reusable skills for coding agents. I also publish skills on [ClawHub](https://clawhub.ai/u/jdrhyne), covering everything from document processing to working with Gong and Jira.
 
-## Other Open Source
+I also made **[volks-typo](https://github.com/jdrhyne/volks-typo)**, an Astro blog theme inspired by Bauhaus typography. Sometimes I just want to work on type.
 
-- 🎨 **[volks-typo](https://github.com/jdrhyne/volks-typo)** — Astro blog theme exploring Bauhaus modernism and WW2-era typography
+## Selected writing
 
-## Published Skills on ClawHub
+- [AI Can Run Autonomously. Accountability Still Can’t.](https://jdrhyne.me/thoughts/ai-can-run-autonomously-accountability-still-cant)
+- [Speed Is Now Even Cheaper While Errors Are Only Getting More Expensive.](https://jdrhyne.me/thoughts/speed-is-cheap-error-is-expensive)
+- [The Enduring Importance of Retreats for Remote Companies](https://jdrhyne.me/thoughts/the-enduring-importance-of-retreats-for-remote-companies-a-6-year-update-b72f7f8ebbba)
 
-I publish reusable AI agent skills on [ClawHub](https://clawhub.ai/u/jdrhyne) — the skill registry for OpenClaw and other agent frameworks.
+More on [my blog](https://www.jdrhyne.me/). For the company side of the story, there’s my [AiThority interview](https://aithority.com/machine-learning/aithority-interview-with-jonathan-rhyne-cofounder-ceo-of-nutrient/) and my [Forbes Technology Council profile](https://councils.forbes.com/profile/Jonathan-Rhyne-CEO-Cofounder-Nutrient/a595668b-4fc5-4d6e-85fe-69648f8b43f5).
 
-[![ClawHub](https://img.shields.io/badge/-clawhub.ai/u/jdrhyne-FF4500?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz48L3N2Zz4=&logoColor=white)](https://clawhub.ai/u/jdrhyne)
+NC State undergrad, Campbell Law grad, dad, and a believer that documents don’t have to suck.
 
-Skills include: Nutrient document processing, Nudocs, Gong, Google Ads, JIRA, Munger Observer, Sysadmin Toolbox, TODO Tracker, Context Recovery, and more.
-
-## Company
-
-- 🔋 **[Nutrient](https://www.nutrient.io)** (formerly [@PSPDFKit](https://github.com/PSPDFKit)) — Co-Founder & CEO. Document SDKs used by millions, backed by Insight Partners. Built from scratch with [@steipete](https://github.com/steipete) in 2011, rebranded to Nutrient in 2024.
-
-## What I'm Doing
-
-- **Building infrastructure for trustworthy AI agents** — Security scanning, document processing, and the tooling agents need to actually work
-- **Running House Atreides** — A fleet of 5 specialized AI agents on [OpenClaw](https://openclaw.ai) that handle real work autonomously
-- **Publishing agent skills** — Packaging reusable workflows on [ClawHub](https://clawhub.ai/u/jdrhyne)
-- **Writing** — Documenting the journey at [jdrhyne.me](https://jdrhyne.me)
-- **Leading Nutrient** — Evolving how humans (and AI agents) experience documents
-
-## Latest Blog Posts
-
-- [Speed Is Now Even Cheaper While Errors Are Only Getting More Expensive.](https://jdrhyne.me/thoughts/speed-is-cheap-error-is-expensive) — Mar 2026
-- [AI Can Run Autonomously. Accountability Still Can't.](https://jdrhyne.me/thoughts/ai-can-run-autonomously-accountability-still-cant) — Feb 2026
-- [Meet Brosef: How AI Learned to Work While I Sleep](https://jdrhyne.me/thoughts/meet-brosef-how-ai-learned-to-work-while-i-sleep) — Jan 2026
-- [Building My Website Without Writing Code](https://jdrhyne.me/thoughts/building-website-without-code-vienna-experiment) — Jun 2025
-- [The Enduring Importance of Retreats for Remote Companies](https://jdrhyne.me/thoughts/the-enduring-importance-of-retreats-for-remote-companies-a-6-year-update-b72f7f8ebbba) — Sep 2023
-
-## Recognition
-
-- 🏛️ **[Forbes Technology Council](https://councils.forbes.com/profile/Jonathan-Rhyne-CEO-Cofounder-Nutrient/a595668b-4fc5-4d6e-85fe-69648f8b43f5)** member
-- 🎙️ **[AiThority Interview](https://aithority.com/machine-learning/aithority-interview-with-jonathan-rhyne-cofounder-ceo-of-nutrient/)** on AI and document processing
-- 📄 **[PDF Association](https://pdfa.org/people/jonathan-rhyne/)** member
-- 🦞 Featured on **[openclaw.ai](https://openclaw.ai)**
-
-## Connect
-
-[![Twitter](https://img.shields.io/badge/-@jdrhyne-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://x.com/jdrhyne)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jonathan-rhyne-54084811)
-[![Website](https://img.shields.io/badge/-jdrhyne.me-000000?style=flat-square&logo=safari&logoColor=white)](https://jdrhyne.me)
-[![Nutrient](https://img.shields.io/badge/-nutrient.io-6366F1?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik05LjgzIDI2Ljg1QzguMjcgMjYuODUgNyAyNS41NyA3IDI0czEuMjctMi44NSAyLjgzLTIuODVTMTIuNjcgMjIuNDMgMTIuNjcgMjRzLTEuMjcgMi44NS0yLjg0IDIuODV6bTI4LjM0LTUuN2MtMS41NyAwLTIuODQgMS4yOC0yLjg0IDIuODVzMS4yNyAyLjg1IDIuODQgMi44NVM0MSAyNS41NyA0MSAyNHMtMS4yNy0yLjg1LTIuODMtMi44NXpNMTEuMzMgMzAuOTdjLTEuMiAxLjAxLTEuMzYgMi44MS0uMzUgNC4wMSAxLjAxIDEuMiAyLjc5IDEuMzYgMy45OS4zNSAxLjItMS4wMSAxLjM2LTIuODEuMzUtNC4wMS0xLjAxLTEuMi0yLjc5LTEuMzYtMy45OS0uMzV6bTI1LjM1LTEzLjk0YzEuMi0xLjAxIDEuMzYtMi44MS4zNS00LjAxLTEuMDEtMS4yLTIuNzktMS4zNi0zLjk5LS4zNS0xLjIgMS4wMS0xLjM2IDIuODEtLjM1IDQuMDEgMS4wMSAxLjIgMi43OSAxLjM2IDMuOTkuMzV6TTE0Ljk3IDEyLjY3Yy0xLjItMS4wMS0yLjk5LS44NS00IC4zNS0xLjAxIDEuMjEtLjg1IDMuMDEuMzUgNC4wMiAxLjIgMS4wMSAyLjk5Ljg1IDQtLjM1IDEuMDEtMS4yMS44NS0zLjAxLS4zNS00LjAyem0yMS43MSAxOC4zYy0xLjItMS4wMS0yLjk5LS44NS00IC4zNS0xLjAxIDEuMi0uODUgMy4wMS4zNSA0LjAxIDEuMiAxLjAxIDIuOTkuODYgNC0uMzUgMS4wMS0xLjIuODUtMy0uMzUtNC4wMXptLTcuMjQtNi4xYy0xLjItMS4wMS0yLjk5LS44NS00IC4zNS0xLjAxIDEuMjEtLjg1IDMuMDEuMzUgNC4wMSAxLjIgMS4wMSAyLjk5Ljg2IDQtLjM1IDEuMDEtMS4yLjg1LTMtLjM1LTQuMDF6bS03LjI0LTYuMWMtMS4yLTEuMDEtMi45OS0uODUtNCAuMzUtMS4wMSAxLjIxLS44NSAzLjAxLjM1IDQuMDEgMS4yIDEuMDEgMi45OS44NiA0LS4zNSAxLjAxLTEuMi44NS0zLS4zNS00LjAxeiIvPjwvc3ZnPgo=&logoColor=white)](https://www.nutrient.io)
-[![ClawHub](https://img.shields.io/badge/-ClawHub-FF4500?style=flat-square&logoColor=white)](https://clawhub.ai/u/jdrhyne)
-
----
-
-### Philosophy
-
-> "Ship beats perfect" — I went from writing legal briefs to shipping code. Turns out both are just about clear communication and solving problems.
-
-### Random Facts
-
-- 🎓 NC State undergrad → Campbell Law School → said "nah" to practicing law
-- 🤝 Co-founded PSPDFKit with [@steipete](https://github.com/steipete) — still friends, still building
-- ☕ Powered by North Carolina coffee and the belief that documents don't have to suck
-- 🤖 Currently running a fleet of AI agents that do real work while I live my life
+[LinkedIn](https://linkedin.com/in/jonathan-rhyne-54084811) · [X](https://x.com/jdrhyne)
